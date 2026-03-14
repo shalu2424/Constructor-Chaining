@@ -1,0 +1,26 @@
+class Amazon {
+
+    Amazon() {
+        System.out.println("Code to initialize the shopping");
+    }
+
+    Amazon(double subscription) {
+        this();
+        System.out.println("Code to initialize Prime Video");
+        System.out.println("Code to initialize Amazon Music");
+    }
+}
+
+public class MainClass3 {
+
+    public static void main(String[] args) {
+
+        Amazon prime = new Amazon(1299.0);
+    }
+}
+
+Output:
+
+Code to initialize the shopping
+Code to initialize Prime Video
+Code to initialize Amazon Music
