@@ -1,0 +1,28 @@
+class McDonalds {
+
+    McDonalds() {
+        System.out.println("Burger");
+    }
+
+    McDonalds(int a) {
+        this();
+        System.out.println("Fries");
+    }
+
+    McDonalds(double d) {
+        this(10);
+        System.out.println("Coke");
+    }
+}
+
+public class MainClass1 {
+
+    public static void main(String[] args) {
+
+        McDonalds ref = new McDonalds(48);
+    }
+}
+
+Output:
+Burger
+Fries
