@@ -1,0 +1,29 @@
+class City {
+
+    City() {
+        System.out.println("Paris");
+    }
+
+    City(double d) {
+        this();
+        System.out.println("New York");
+    }
+
+    City(String s) {
+        this(2.8);
+        System.out.println("London");
+    }
+}
+
+public class MainClass2 {
+
+    public static void main(String[] args) {
+
+        City c = new City("Hello");
+    }
+}
+
+Output:
+Paris
+New York
+London
